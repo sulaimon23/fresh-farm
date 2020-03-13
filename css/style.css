@@ -1,0 +1,546 @@
+/* ===============================
+=========login================
+============================= */
+#page{
+ /* margin: auto; */
+ padding: 0;
+ height: 90vh;
+ text-align: center;
+ margin: auto;
+}
+.wrapper{
+ width: 100%;
+ height:100%;
+ margin: 0;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.side{
+ height: 90vh;
+ background: linear-gradient(to right, blue, aqua);
+ margin: 0;
+ padding: 0;
+}
+.info{
+ text-align: center;
+ display: block;
+ justify-content: center;
+}
+.side hr{
+ color: white;
+ border: 1px white solid;
+ width: 80%;
+}
+.display{
+ text-align: center;
+ display: block;
+ justify-content: center;
+ margin: 0;
+ padding: 0;
+}
+.info input{
+ border: 0.3px white solid;
+ border-radius: 50px;
+ margin-top: 0;
+ padding-left: 15px;
+}
+.info input:focus{
+ color: red;
+}
+.image{
+ background-image: url('../user.png');
+ width: 100px;
+ height: 100px;
+ margin: 80px auto 0px auto;
+ background-position: center;
+ background-repeat: no-repeat;
+ border: 0.1px white solid;
+ border-radius: 900px;
+ background-size: cover;
+}
+.info label{
+ text-align: center;
+ color: white;
+ font-weight: 800;
+ margin: 20px auto 10px auto;
+ padding: 10px;
+ letter-spacing: 3px;
+ text-shadow:1px 3px 4px aqua;
+}
+
+.login{
+ margin-top: 10px;
+ text-decoration: none;
+ width: 30%;
+ /* background:linear-gradient(to right, aqua, blue); */
+ color: white;
+}
+.login:hover{
+ transform: scale(1.2);
+ transition: ease-in 0.2;
+ background-color: red;
+ outline: none;
+ border: none;
+}
+.forgot a{
+ color: white;
+ font-weight: 10;
+ font-size: smaller;
+}
+.forgot a:hover{
+ color: red;
+ text-decoration: underline;
+}
+.forgot{
+ margin-top:20px;
+}
+.social{
+ text-align: center;
+ margin-top: 50px;
+}
+.social i{
+ color: white;
+ padding-left: 30px;
+}
+.forgot .up a{
+ color: sandybrown;
+ font-weight: 800;
+ font-size: medium;
+}
+.forgot .up a:hover{
+ text-decoration: none;
+ color: red;
+}
+.social i:hover{
+ transform: scale(1.5);
+ transition: ease-in 0.1s;
+ color: red;
+
+}
+.right-side{
+ background-image: url('../blog-img-02.jpg');
+ height: 100%;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ position: relative;
+ margin: 0;
+ padding: 0;
+ z-index: -2;
+}
+.cover{
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0px;
+ background:linear-gradient(to right,black,blue);
+ z-index:-1;
+ opacity: 0.7;
+
+}
+.right-side h1{
+ color: rgb(88, 185, 185);
+ font-weight: 900;
+ padding-top: 50%;
+ font-size: 4rem;
+}
+.right-side h3{
+ color: white;
+ font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+.side .line{
+ border: 1px gray solid;
+ width: 99%;
+}
+.side .line2{
+ border: 1px gray solid;
+ width: 50%;
+}
+.copy{
+ color: white;
+}
+
+
+/* ===========================
+==============================
+=========HOME=============
+============================= */
+body{
+ width: 90%;
+ margin: auto;
+ height: 100%;
+}
+#all{
+ margin: 0;
+ padding: 0;
+ background: linear-gradient(to top,rgb(196, 196, 197), white,rgb(175, 175, 179),white, white);
+ padding-top:10px;
+ margin-top: 30px;
+}
+.head{
+ height:80px;
+ background:linear-gradient(to bottom,blue,blue, aqua);
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+.logo{
+ color: white;
+ font-weight: 400;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ padding-top: 20px;
+}
+.logo sub{
+ font-size:0.9rem;
+ color:coral;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-decoration: none;
+ 
+}
+header ul li{
+ display: inline-block;
+ margin: auto;
+ padding-left:30px;
+ margin-top:40px;
+ text-align: right;
+}
+header a{
+ text-align: right;
+ color: white;
+}
+header a:hover{
+ color: red;
+ text-decoration: none;
+}
+.show{
+ padding: 0;
+ margin: 0;
+ margin-top: 10px;
+}
+.showcase-image{
+ width: 100%;
+ height:600px;
+ background-image: url('../blog-img-02.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ border-left: 200px solid #fff;
+ border-top: 600px solid transparent;
+ /* position: absolute; */
+}
+.layer{
+ width: 640px;
+ height: 600px;
+ background: black;
+ z-index: 5;
+ position: relative;
+ top: -600;
+ left: -200px;
+ background-attachment: fixed;
+ border-left: 200px solid #fff;
+ border-top: 600px solid transparent;
+ opacity: 0.4;
+ margin: 0;
+ padding: 0;
+}
+.showcase-text{
+ text-align: center;
+ margin-top:200px;
+}
+.showcase-text hr{
+ border: 3px aqua solid;
+ width: 200px;
+}
+.showcase-text .it{
+ border: 3px aqua solid;
+ width: 20px;
+}
+.showcase-text h3{
+ color: blue;
+ text-shadow: 2px 2px 3px aqua;
+}
+.showcase-text i{
+ color: orange;
+}
+.showcase-text p{
+ color: blue;
+ text-shadow: 2px 2px 3px aqua;
+}
+/* =================================
+===========SERVICES SECTION========= */
+.services{
+ text-align: center;
+ margin-top: 10px;
+ margin-bottom: 100px;
+
+}
+.content-title h3{
+ color: blue;
+ text-shadow:2px 2px 3px aqua;
+}
+.content-title .hr{
+ border: 3px aqua solid;
+ background: blue;
+ margin-bottom: 20px !important;
+ width: 50px;
+ margin:0 auto;
+}
+.hvr-pulse-shrink{
+ padding: 30px;
+ margin-bottom: 20px;
+ cursor: pointer;
+ background: linear-gradient(to right, aqua, blue);
+ border: 0.1px blue solid;
+ border-radius: 50px;
+ width: 80%;
+ height: 300px;
+}
+
+.service-item-description p{
+ padding: 10px;
+ color: white;
+}
+.service-item-title h3{
+ font-size: 20px;
+ font-weight: 800;
+ margin: 20px 0 10px 0;
+ color: blue;
+ text-shadow:2px 3px 4px aqua;
+}
+/* =============================
+====team============= */
+.content-box h3{
+ text-align: center;
+ color: blue;
+ text-shadow:2px 3px 4px aqua;
+ margin-top: 10px;
+}
+.img-circle{
+ border-radius: 50%;
+ margin-top: 20px;
+}
+.img-circle:hover{
+ transform: scale(0.9);
+ transition: ease-in 0.3s;
+}
+.team{
+ text-align: center;
+}
+.our-team .in{
+ border: 3px aqua solid;
+ width:50px;
+}
+.our-team hr{
+ width: 400px;
+}
+.our-team p{
+ color: white;
+ text-shadow:1px 3px 4px black;
+}
+/* ========================
+=========footer============ */
+footer{
+ height:200px;
+ background: linear-gradient(to right, aqua, blue);
+ text-align: center;
+ padding-top:5px;
+ margin-top: 50px;
+ margin-bottom: 15px;
+}
+.footer hr{
+ border: 1px solid white;
+ width: 400px;
+}
+/* =====================================
+========================================
+===============SIGN UP==================
+======================================== 
+======================================== 
+======================================== */
+/* sign up header */
+header .logo{
+ text-align: center;
+}
+.sign-up-head{
+ margin-bottom: 0;
+}
+
+/* sign up header end */
+
+/* back -ground */
+.background{
+ background:url('../blog-img-02.jpg');
+ height: 100%;
+ width: 100%;
+ background-size: cover;
+ background-repeat: no-repeat;
+ position:absolute;
+ z-index: -3;
+}
+.background-cover{
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ background:black;
+ position: absolute;
+ opacity: 0.6;
+ z-index: -2;
+ top: 0;
+}
+.background-text{
+ height: 70vh;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ position: absolute;
+ z-index: -1;
+}
+.background-text h1{
+ color:aqua;
+ font-weight: 900;
+ padding-top:10%;
+ font-size: 4rem;
+}
+#signup-form .background-text h3{
+ color:coral;
+ font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+
+/* back-ground end */
+/* ===============================
+==================================
+==== signup-form=================
+========================= */
+#signup-form{
+ background: none;
+ height: 70vh;
+ position: relative;
+ margin-top: 5px;
+ color: white;
+ text-align: center;
+}
+#signup-form label{
+ margin-top: 20px;
+}
+#signup-form .form-text{
+ text-align: left;
+ margin-top: 10px auto 5px auto;
+}
+.form-text input{
+ background: none;
+ color: white;
+ font-weight: 900;
+ border-radius: 15px;
+ border: 0.5px solid;
+ padding: 5px;
+ margin: 0;
+}
+.form-text label{
+ font-weight: 900;
+ margin: 0;
+ font-family: 'Courier New', Courier, monospace;
+}
+.form-text .adr, .tel, .mail{
+ border: 0.5px solid;
+ padding-left: 5px;
+ border-radius: 15px;
+}
+.form-text .adr input{
+ border: none;
+}
+.form-text .tel input{
+ border: none;
+}
+.form-text .mail input{
+ border: none;
+}
+.form-text .col-md-4{
+ margin-top: 30px;
+ text-align: left;
+}
+.form-text input:focus{
+ color: white;
+ background-color: black;
+}
+#signup-form .form-submit{
+ margin-top: 30px;
+}
+#signup-form .form-submit button{
+ color: red;
+ font-family: 'Courier New', Courier, monospace;
+ font-style: italic;
+ text-transform: uppercase;
+ background: white;
+ border: 0.5px solid red;
+ border-radius: 10px;
+}
+#signup-form .form-submit button:hover{
+ transform: scale(1.3);
+ transition: ease-in-out 0.2s;
+ background: red;
+ color: white;
+}
+#signup-form .icoon{
+ text-align: center;
+ color: white;
+ margin-top: 20px;
+}
+#signup-form .icoon i:hover{
+ color: red;
+ transform: scale(1.3);
+ transition: ease-in 0.2s;
+}
+#signup-form .icoon i{
+ padding-left: 70px;
+}
+#signup-form .agree{
+ margin-top: 10px;
+ color: red;
+}
+
+
+/* sign up footer */
+
+#signup-foot{
+ height:70px;
+ margin: 0px;
+ margin-top: 5px;
+ padding-top: 20px;
+ color: white ;
+}
+
+
+/* sign up footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
