@@ -13,25 +13,27 @@
          <div class="container">
             <div class="row">
                <div class="col-md-4 side">
-                  <section class="info">
-                     <div class="image"></div>
-                     <div>
-                     <label for="username" >Username</label>
-                     </div>
-                     <input type="username"id="username" required>
-                     <div id="fill"></div>
-                     <div>
-                     <label for="password">Password</label>
-                     </div>
-                     <input type="password" id="password" required>
-                     <div id="enter"></div>
-                     <div>
-                     <button class="btn btn-primary login" id="button">Login</button>
-                     </div>
-                     <div class="forgot">
-                        <em><a href="#">forgotten password?..</a></em><span class="up"><a href="signup.html">Signup</a></span>
-                     </div>
-                  </section>
+                  <form action="post" onsubmit="validateForm()">
+                     <section class="info">
+                        <div class="image"></div>
+                        <div>
+                        <label for="username" >Username</label>
+                        </div>
+                        <input type="username" id="username" value="" required>
+                        <div id="fill"></div>
+                        <div>
+                        <label for="password">Password</label>
+                        </div>
+                        <input type="password" id="password" required>
+                        <div id="enter"></div>
+                        <div>
+                        <button class="btn btn-primary login" id="button">Login</button>
+                        </div>
+                        <div class="forgot">
+                           <em><a href="#">forgotten password?..</a></em><span class="up"><a href="signup.html">Signup</a></span>
+                        </div>
+                     </section>
+                  </form>
                   <hr>
                   <section class="social">
                      <a href="#"><i class="fab fa-facebook"></i></a>
